@@ -1,0 +1,82 @@
+@media screen and (max-width: 920px) {
+    .head-div {
+        margin-top: 1rem;
+    }
+    .head-div a {
+        font-size: small;
+    }
+    .logo img {
+        width: 30vw;
+        height: auto;
+    }
+    .tagline {
+        font-size: 16px;
+    }
+    .greetings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    .image img {
+        width: 30vw;
+        height: auto;
+    }
+    .text-greetings {
+        margin-left: 0;
+        /* background-color: black; */
+        width: 80%;
+        font-size: smaller;
+    }
+    .about-us span {
+        font-size: 16px;
+    }
+    .products-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .products-items img {
+        width: 60vw;
+        height: 37vh;
+    }
+    .item1 .item2 {
+        display: none;
+    }
+    .items-sold-and-baked-img-div img {
+        width: 35vw;
+        height: auto;
+    }
+    .why-us-tags-div h1 {
+        font-size: 18px;
+    }
+    .second-tag-div h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .location-main-div {
+        height: 50vh;
+    }
+    .contact-text {
+        font-size: 16px;
+    }
+    .footer-images-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .footer-images-div img {
+        width: 25vw;
+    }
+    .footer h1 {
+        margin-top: 3rem;
+        font-size: large;
+        text-align: center;
+    }
+    .footer span {
+        font-size: 10px;
+    }
+}
