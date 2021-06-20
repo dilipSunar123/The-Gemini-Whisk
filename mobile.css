@@ -1,4 +1,10 @@
 @media screen and (max-width: 920px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
     .head-div {
         margin-top: 1rem;
     }
@@ -6,13 +12,15 @@
         font-size: small;
     }
     .logo img {
-        width: 30vw;
+        margin-top: 3rem;
+        width: 50vw;
         height: auto;
     }
     .tagline {
-        font-size: 16px;
+        font-size: 14px;
     }
     .greetings {
+        margin-top: 18rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -31,26 +39,52 @@
     }
     .about-us span {
         font-size: 16px;
+        width: 90vw;
+        margin-top: 3rem;
     }
-    .products-items {
+    /* .products-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 3rem;
+    } */
+    .products-items-main-div {
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
     }
     .products-items img {
-        width: 60vw;
-        height: 37vh;
+        width: 30vw;
+        height: 18vh;
+        margin: 7px;
     }
-    .item1 .item2 {
-        display: none;
+    .items-sold-and-baked-img-div {
+        margin-top: 1rem;
     }
     .items-sold-and-baked-img-div img {
         width: 35vw;
         height: auto;
     }
+    .tag-img {
+        margin-top: 2rem;
+    }
+    .why-us-tags-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
     .why-us-tags-div h1 {
         font-size: 18px;
+    }
+    .second-tag-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .second-tag-div h1 {
         font-size: 18px;
@@ -61,6 +95,10 @@
     }
     .contact-text {
         font-size: 16px;
+        margin-top: 3rem;
+    }
+    .contact-text span {
+        width: 90vw;
     }
     .footer-images-div {
         display: flex;
