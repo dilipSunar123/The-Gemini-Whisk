@@ -169,11 +169,21 @@ body {
     justify-content: space-around;
     
 }
+.feedback {
+    margin-top: 7rem;
+    /* background-color: red; */
+    width: 89%;
+    text-align: right;
+}
+.feedback a {
+    font-style: italic;
+    color: #e6308b;
+}
 .social-media-icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     margin-bottom: 1rem;
     width: 100%;
 }
